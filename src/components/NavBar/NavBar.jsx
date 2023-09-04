@@ -1,5 +1,5 @@
 import Links from "./Links";
-import Logo from "./logo";
+import Logo from "./Logo";
 const NavBar = (prop) => {
     return (
         <div className="nav-bar">
