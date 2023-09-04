@@ -25,6 +25,7 @@
         top: 0;
         right: 0;
         background-color: transparent;
+        animation: animate-get-in 0.5s ease-in-out forwards;
     }
 
     .fake-div {
@@ -36,7 +37,7 @@
     .nav-bar-mobile {
         width: 60%;
         height: 100%;
-        background-color: var(--Off_white) !important;
+        background-color: var(--Off_white);
     }
 
     .page {
@@ -88,5 +89,17 @@
         width: 70%;
         height: 100%;
         background-image: url(./white-background.svg);
+    }
+}
+
+
+@keyframes animate-get-in {
+    0%{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    70%,100%{
+        opacity: 1;
+        transform: translateX(0);
     }
 }
