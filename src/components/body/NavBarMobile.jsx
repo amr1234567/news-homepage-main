@@ -2,7 +2,8 @@ import Links from "../NavBar/link";
 const NavBarMobile = (prop) => {
     return (
         <div className="all-page">
-            <div className="nav-bar-mobile">
+            <div className="fake-div"></div>
+            <div className="nav-bar-mobile" data-view-component="true">
                 <i onClick={prop.handleNavBar} className="fa-solid fa-xmark special"></i>
                 <div className="links">
                     {
@@ -12,6 +13,7 @@ const NavBarMobile = (prop) => {
                 }
                 </div>
             </div>
+            
         </div>
     );
 }
