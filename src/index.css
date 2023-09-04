@@ -137,11 +137,12 @@ body {
   font-size: 0.8rem;
 }
 
-.new>h5{
+.new>h5 {
   transition: 0.1s ease-in-out;
   cursor: pointer;
 }
-.new>h5:hover{
+
+.new>h5:hover {
   color: var(--Soft_orange);
 }
 
@@ -153,39 +154,47 @@ body {
   gap: 1rem;
 }
 
-.card{
+.card {
   display: flex;
   gap: 1rem;
 }
-.card>img{
+
+.card>img {
   width: 30%;
   height: 7rem;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   width: 60%;
 }
 
-.content>h3{
+.content>h3 {
   font-weight: 700;
   font-size: 1.5rem;
   opacity: 0.6;
   color: var(--Dark_grayish_blue);
 }
-.main-p:hover{
+
+.main-p:hover {
   color: var(--Soft_orange);
 }
 
-.main-p{
+.main-p {
   font-weight: 700;
   font-size: 0.9rem;
   cursor: pointer;
 }
 
-.secondary-p{
+.secondary-p {
   font-size: 0.8rem;
   color: var(--Dark_grayish_blue);
+}
+
+
+.footer {
+  text-align: center;
+  width: 100%;
 }
