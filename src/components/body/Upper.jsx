@@ -1,4 +1,4 @@
-import Logo from "../NavBar/logo";
+import Logo from "../NavBar/Logo";
 const Upper = (prop) => {
     return (
         <div className="upper">

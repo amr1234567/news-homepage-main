@@ -1,11 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
 import NavBar from "./components/NavBar/NavBar";
 import Body from "./components/body/Body";
-import { useEffect } from "react";
 import Upper from "./components/body/Upper";
 import NavBarMobile from "./components/body/NavBarMobile";
 import Footer from "./components/Footer";
+
 import disableScroll from 'disable-scroll';
+
 const Page = () => {
     const links = ["Home", "New", "Popular", "Trending", "Categories"];
 
