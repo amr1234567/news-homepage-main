@@ -15,10 +15,7 @@ const Page = () => {
         if (navOpened) setNavOpened(false);
         else setNavOpened(true);
     };
-    let hundleWidth = () => {
-        setWidth(window.innerWidth);
-        console.log(width);
-    };
+    let hundleWidth = () => setWidth(window.innerWidth);
 
     useEffect(() => {
         window.addEventListener("resize", hundleWidth);
