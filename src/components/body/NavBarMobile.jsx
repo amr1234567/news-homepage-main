@@ -1,4 +1,4 @@
-import Links from "../NavBar/link";
+import Links from "../NavBar/Links";
 const NavBarMobile = (prop) => {
     return (
         <div className="all-page">
